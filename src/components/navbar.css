@@ -1,0 +1,25 @@
+nav{
+    background-color:#4c5c68;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.app-title{
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+nav ul{
+    color: white;
+    display: flex;
+    column-gap: 10px;
+    margin-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+}
